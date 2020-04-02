@@ -7,9 +7,9 @@ this is a config logstash file for parsing and filtering loggen generated syslog
        sockets. The messages can be generated automatically (repeating the PADDstring over and
        over), or read from a file or the standard input.
 <br>
-for more information you can check [loggen documentatio]n(http://manpages.ubuntu.com/manpages/bionic/man1/loggen.1.html)
+for more information you can check [loggen documentation](http://manpages.ubuntu.com/manpages/bionic/man1/loggen.1.html)
 <br>
-loggen generated syslog example:
+### loggen generated syslog example:
 ```
 <38>2020-04-02T23:45:20 localhost prg00000[1234]: seq: 0000000005, thread: 0000, runid: 1585854915, stamp: 2020-04-02T23:45:20 PADDPADDPADDPADDPADDPADDPADDPADDPADDPADDPADDPADDPADDPADDPADDPADDPADDPADDPADDPADDPADDPADDPADDPADDPADDPADDPADDPADDPADDPADDPADDPADDPADDPADDPADDPADDPADDPADDPADDPADDPADDPADDPADD
 ```
